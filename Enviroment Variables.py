@@ -8,4 +8,7 @@ user = os.getenv("USER")
 #get home path enviroment variable
 home = os.getenv("HOME")
 
-print(home)
+#get path for conda
+conda = os.getenv("CONDA_EXE")
+
+print(conda)
