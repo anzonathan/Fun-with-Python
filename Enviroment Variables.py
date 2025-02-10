@@ -11,4 +11,9 @@ home = os.getenv("HOME")
 #get path for conda
 conda = os.getenv("CONDA_EXE")
 
-print(conda)
+#create enviroment variable
+os.environ["passkey"] = "Am I the only one I know"
+
+passkey = os.getenv("passkey")
+
+print(passkey)
