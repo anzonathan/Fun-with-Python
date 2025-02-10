@@ -2,7 +2,10 @@
 
 import os
 
-#getting the user enviroment variables
-name = os.getenv("USER")
+#get user enviroment variable
+user = os.getenv("USER")
 
-print(name)
+#get home path enviroment variable
+home = os.getenv("HOME")
+
+print(home)
